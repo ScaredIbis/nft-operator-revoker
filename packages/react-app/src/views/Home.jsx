@@ -12,7 +12,7 @@ const knownOperators = {
 };
 
 const moralisHeaders = {
-  "X-API-Key": "5TdmHKuzBNh8ZSTjdCbstdfD0q69V88McUhY6VdcJocKXZVH4JPkNboclFBxXU4i",
+  "X-API-Key": process.env.REACT_APP_MORALIS_WEB3_API_KEY,
   accept: "application/json",
 };
 
